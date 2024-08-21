@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="form">
+    <input type="number" name="number" id="limit">
+    <input type="button" value="submit" onclick="showdata()">
+    <input type="text" name="" id="search" placeholder="Search Product">
+    <input type="button" value="submit" onclick="serProduct()">
+    <select name="" id="selcetegory">  
+      <option value="selsect" disabled selected>--select--</option>
+      <option value="beauty">beauty</option>
+      <option value="fragrances">fragrances</option>
+      <option value="furniture">furniture</option>
+      <option value="groceries">groceries</option>
+      <option value="laptops">laptops</option>
+      <option value="motorcycle">motorcycle</option>
+      <option value="mobile-accessories">mobile-accessories</option>
+      <option value="mens-shirts">mens-shirts</option>
+      <option value="mens-shoes">mens-shoes</option>
+      <option value="mens-watches">mens-watches</option>
+      <option value="sunglasses">sunglasses</option>
+      <option value="tablets">tablets</option>
+    </select>
+    <input type="button" value="submit" onclick="cetegory()">
+
+
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <div class="row" id="row"></div>
+    </div>
+  </div>
+
+  <div class="nxt_prev">
+    <button id="previous" onclick="prev()">previous</button>
+    <button id="next" onclick="nxt()">next</button>
+  </div>
+    
+    
+    <script src="./api2.js"></script>
+    
+</body>
+</html>

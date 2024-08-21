@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px 0;
+}
+.form{
+    margin: 0 0 0 50px;
+}
+.main{
+    padding: 50px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    column-gap: 15px;
+    row-gap: 20px;
+    margin-top: 30px;
+}
+.card_main{
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.category,.description{
+    margin-bottom: 20px;
+}
+.discount,.price,.rating,.warranty{
+    margin-bottom: 10px;
+}
+.urlToImage{
+    width: 80%;
+    object-fit:contain;
+}
+.nxt_prev{
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nxt_prev button{
+    width: 70px;
+}
